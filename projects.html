@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet"/>
+    <title>Projects | Resume</title>
+</head>
+<body>
+<div class="page-container">
+<header> <h1>Projects</h1> </header>
+          <div class="container">
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="experience.html">Work Experience</a></li>
+                  <li><a href="leadership.html">Leadership & Development</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="references.html">References</a></li>
+              </ul>
+          </nav>
+              <main>
+  <div class="project-card">
+    <h2><a href="https://github.com/ahemedbullo/connectfour">AI Connect Four (Python)</a></h2>
+    <ul>
+      <li>Developed an intelligent Connect Four player utilizing artificial intelligence techniques.</li>
+      <li>Implemented a lookahead algorithm that evaluates possible moves up to a specified depth, assigning scores to each column based on the likelihood of winning or losing.</li>
+    </ul>
+  </div>
+
+  <div class="project-card">
+    <h2><a href="https://github.com/ahemedbullo/SaveSmart">SaveSmart</a> (React, Express, Plaid API)</h2>
+    <ul>
+      <li>Developed a personal finance web app enabling users to track budgets, expenses, and savings goals through a React front end and Express backend.</li>
+      <li>Integrated the Plaid API to securely connect bank accounts and retrieve real-time balances and transactions, reducing manual data entry.</li>
+      <li>Implemented features including manual expense entry, search and inline edit, spending visualizations, and PDF/Excel budget exports.</li>
+      <li>Built authentication and error-handling flows to ensure a secure and reliable user experience.</li>
+    </ul>
+  </div>
+
+      <section id="calculator">
+          <h2>Calculator</h2>
+
+          <div>
+              <label for="one">First number:</label>
+              <input type="text" id="one">
+          </div>
+
+          <div>
+              <label for="two">Second number:</label>
+              <input type="text" id="two">
+          </div>
+
+          <div class="button">
+              <button onclick="addition()"> + </button>
+              <button onclick="subtraction()"> - </button>
+              <button onclick="multiplication()"> * </button>
+              <button onclick="division()"> / </button>
+              <button onclick="power()"> ** </button>
+              <button onclick="clearCalc()"> Clear </button>
+          </div>
+
+
+          <h3 id="output"></h3>
+      </section>
+</main>
+          </div>
+<footer>
+    <p>All Rights Reserved by Ahemed Bullo | <a href="">Credits</a> &copy;</p>
+</footer>
+      <script src="index.js" ></script>
+</div>
+</body>
+</html>
